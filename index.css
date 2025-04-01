@@ -1,0 +1,157 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2874F0;
+    padding: 15px;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.search-bar {
+    width: 40%;
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    text-align: center;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.hero-text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background: #ff9f00;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* Categories Section */
+.categories {
+    padding: 20px;
+    text-align: center;
+}
+
+.category-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.category {
+    text-align: center;
+}
+
+.category img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.category p {
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+/* Trending Courses */
+.trending {
+    padding: 20px;
+    text-align: center;
+}
+
+.course-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.course {
+    text-align: center;
+}
+
+.course img {
+    width: 150px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.course p {
+    margin-top: 5px;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+/* Back to Home Button */
+.back-home {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    background: #007bff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.back-home:hover {
+    background: #0056b3;
+}

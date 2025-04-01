@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LightLearn - For School Students</title>
+    <link rel="stylesheet" href="std.css">
+    <script src="std.js"></script>
+
+</head>
+<body>
+    
+    <header>
+        <h1  style="color: black;">LightLearn</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" style="color: black;">Home</a></li>
+                <li><a href="subject.html" style="color: black;">Subjects</a></li>
+                <li><a href="games.html" style="color: black;">Games</a></li>
+                <li><a href="quizz.html"  style="color: black;">Quizzes</a></li>
+                <li><a href="contact.html" style="color: black;">Contact</a></li>
+                <li><a href="service.html" style="color: black;">service</a></li>
+                <li><a href="about.html" style="color: black;">about</a></li>
+            </ul>
+            <div class="profile-icon" onclick="toggleAuthMenu()">
+                <input type="file" id="profile-input" accept="image/*" onchange="changeProfilePic(event)" hidden>
+                <label for="profile-input">
+                    <img src="pr.jpg" alt="Profile" class="profile-pic" id="profile-pic">
+                </label>
+                <div id="auth-menu" class="auth-menu hidden">
+                    <a href="login.html">Login</a>
+                    <a href="sign.html">Sign Up</a>
+                </div>
+            </div>
+            
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Welcome, Young Learners!</h2>
+        <p>Fun and interactive learning for school students. Explore subjects, play educational games, and test your skills with quizzes!</p>
+        
+        <button onclick="window.location.href='learn.html'">Start Learning</button>
+
+    </section>
+    
+<p>Welcome to LightLearn, an innovative e-learning platform designed specifically for school students! Our mission is to make learning engaging, interactive, and fun by combining educational content, games, and quizzes to enhance students' understanding of core subjects.
+
+    At LightLearn, students can explore a variety of subjects such as Mathematics, Science, and English through well-structured lessons, real-world examples, and exciting challenges. We believe that education should not be boring, so we have integrated educational games that make learning an enjoyable experience.
+    
+    Additionally, our interactive quizzes allow students to test their knowledge and track their progress, ensuring they build a strong foundation in their studies. Whether you're looking to sharpen your skills, prepare for exams, or simply enjoy learning, LightLearn is here to support you every step of the way!
+    
+    </p>
+    <p>🚀 Join us today and start your journey towards a brighter future with LightLearn!</p>
+    <section id="subjects">
+        <h2>Subjects We Offer</h2>
+        <div class="subject-card">
+            <img src="maths.jpeg" alt="Math">
+            <h3>Mathematics</h3>
+            <p>Fun math problems, puzzles, and tricks to master numbers!</p>
+        </div>
+        <div class="subject-card">
+            <img src="science.jpeg" alt="Science">
+            <h3>Science</h3>
+            <p>Explore amazing science experiments and facts!</p>
+        </div>
+        <div class="subject-card">
+            <img src="english.jpeg" alt="English">
+            <h3>English</h3>
+            <p>Learn grammar, stories, and improve communication skills.</p>
+        </div>
+    </section>
+
+    <section id="games">
+        <h2>Educational Games</h2>
+        <p>Play fun learning games to make studies exciting!</p>
+    </section>
+
+    <section id="quizzes">
+        <h2>Challenge Yourself</h2>
+        <p>Test your knowledge with quizzes and earn rewards!</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 LightLearn. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function toggleAuthMenu() {
+            document.getElementById("auth-menu").classList.toggle("hidden");
+        }
+    </script>
+
+</body>
+</html>

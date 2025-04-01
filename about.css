@@ -1,0 +1,88 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header Styling */
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 0;
+    font-size: 22px;
+}
+
+/* Navigation Bar */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* About Page Container */
+.about-container {
+    margin: 30px auto;
+    width: 90%;
+    max-width: 800px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Headings */
+.about-container h2,
+.about-container h3 {
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+/* Paragraph & List Styling */
+.about-container p,
+.about-container ul {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+    text-align: left;
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+/* Bullet List */
+.about-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-container ul li {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: lightblue;
+    color: white;
+    font-size: 14px;
+}
